@@ -7,166 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="710e7b3a-2e34-49f2-916e-eac3f96e79ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/aidl/net/sourceforge/servestream/service/IMediaPlaybackService.aidl" afterPath="$PROJECT_DIR$/app/src/main/aidl/com/livemasjid/livemasjidandroid/service/IMediaPlaybackService.aidl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/ServeStreamApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/MasjidStreamApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/AboutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/AboutActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/AddUrlActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/AddUrlActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/BluetoothOptionsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/BluetoothOptionsActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/MediaPlayerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/MediaPlayerActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/NewMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/NewMainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/NowPlayingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/NowPlayingActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/SearchableActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/SearchableActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/SetAlarmActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/SetAlarmActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/SettingsActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/ShortcutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/ShortcutActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/activity/UriEditorActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/activity/UriEditorActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/adapter/BluetoothOptionsListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/adapter/BluetoothOptionsListAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/adapter/BrowseAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/adapter/BrowseAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/adapter/NavigationDrawerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/adapter/NavigationDrawerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/adapter/SearchAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/adapter/SearchAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/adapter/UrlListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/adapter/UrlListAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/Alarm.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/Alarm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmAlert.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmAlert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmAlertFullScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmAlertFullScreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmAlertWakeLock.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmAlertWakeLock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmKlaxon.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmKlaxon.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmPreference.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmPreference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/AlarmReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/Alarms.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/Alarms.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/DigitalClock.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/DigitalClock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/RepeatPreference.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/RepeatPreference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/alarm/ToastMaster.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/ToastMaster.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bean/UriBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bean/UriBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/Base64.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/Base64.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/Base64DecoderException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/Base64DecoderException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/IabException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/IabException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/IabHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/IabHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/IabResult.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/IabResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/Inventory.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/Inventory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/Purchase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/Purchase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/Security.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/Security.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/billing/SkuDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/billing/SkuDetails.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/AsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/AsyncTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/DatabaseImageResizer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/DatabaseImageResizer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/DiskLruCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/DiskLruCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/ImageCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/ImageFetcher.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageFetcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/ImageResizer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageResizer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/ImageWorker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageWorker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/RecyclingBitmapDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/RecyclingBitmapDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/RecyclingImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/RecyclingImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/bitmap/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/Utils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/button/RepeatingImageButton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/button/RepeatingImageButton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/database/StreamDatabase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/database/StreamDatabase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/exceptions/CastException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/exceptions/CastException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/exceptions/NoConnectionException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/exceptions/NoConnectionException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/exceptions/OnFailedListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/exceptions/OnFailedListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/exceptions/TransientNetworkDisconnectionException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/exceptions/TransientNetworkDisconnectionException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/AddUrlFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/AddUrlFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/AlarmClockFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/AlarmClockFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/BrowseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/BrowseFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/MediaPlayerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/MediaPlayerFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/MiniControllerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/MiniControllerFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/SetAlarmFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/SetAlarmFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/SettingsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/SettingsFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/UriEditorFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/UriEditorFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/fragment/UrlListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/fragment/UrlListFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/AbstractMediaPlayer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/AbstractMediaPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/DownloadPlayer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/DownloadPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/FFmpegMediaPlayer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/FFmpegMediaPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/Metadata.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/Metadata.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/MetadataRetrieverListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/MetadataRetrieverListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/MetadataRetrieverTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/MetadataRetrieverTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/MultiPlayer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/MultiPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/NativePlayer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/NativePlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/ShoutCastRetrieverTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/ShoutCastRetrieverTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/media/TimedText.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/media/TimedText.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/preference/PreferenceConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/preference/PreferenceConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/preference/PreferenceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/preference/PreferenceFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/preference/PreferenceManagerCompat.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/preference/PreferenceManagerCompat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/preference/UserPreferences.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/preference/UserPreferences.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/provider/Media.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/provider/Media.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/provider/MediaProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/provider/MediaProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/receiver/BluetoothReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/receiver/BluetoothReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/receiver/ConnectivityReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/receiver/ConnectivityReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/receiver/MediaButtonIntentReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/receiver/MediaButtonIntentReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/receiver/ScrobbleDroidReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/receiver/ScrobbleDroidReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/receiver/SimpleLastfmScrobblerReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/receiver/SimpleLastfmScrobblerReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/service/AppWidgetOneProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/service/AppWidgetOneProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/service/BackupAgent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/service/BackupAgent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/service/BackupWrapper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/service/BackupWrapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/service/MediaButtonHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/service/MediaButtonHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/service/MediaPlaybackService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/service/MediaPlaybackService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/AbsTransport.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/AbsTransport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/File.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/File.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/HTTP.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/HTTP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/HTTPS.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/HTTPS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/MMS.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/MMS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/MMSH.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/MMSH.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/MMST.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/MMST.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/RTMP.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/RTMP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/RTSP.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/RTSP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/transport/TransportFactory.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/transport/TransportFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/BackupUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/BackupUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/CoverView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/CoverView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/DetermineActionTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/DetermineActionTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/DownloadScannerDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/DownloadScannerDialog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/HTTPRequestTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/HTTPRequestTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/LoadingDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/LoadingDialog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/MusicUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/MusicUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/ObjectSerializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/ObjectSerializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/OverflowClickListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/OverflowClickListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/RateDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/RateDialog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/SleepTimerDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/SleepTimerDialog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/URLUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/URLUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/UriBeanLoader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/UriBeanLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/Utils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/WebpageParser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/WebpageParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/utils/WebpageParserTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/WebpageParserTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/sourceforge/servestream/widgets/MiniController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/widgets/MiniController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/effects_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/effects_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/maps_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/maps_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/usb_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/usb_android_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/player/net_sourceforge_servestream_media_FFmpegMediaPlayer.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/player/net_sourceforge_servestream_media_FFmpegMediaPlayer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_media_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_media_player.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/fragment_media_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/fragment_media_player.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_media_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_media_player.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/fragment_media_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/fragment_media_player.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/mini_controller.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/mini_controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp/mini_controller.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp/mini_controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm_alert.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/alarm_time_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alarm_time_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mini_controller.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mini_controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_now_playing.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_now_playing.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mini_controller.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mini_controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/alarm_prefs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/alarm_prefs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drag-sort-listview/build.gradle" afterPath="$PROJECT_DIR$/drag-sort-listview/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drag-sort-listview/dslv/dslv.iml" afterPath="$PROJECT_DIR$/drag-sort-listview/dslv/dslv.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/notrans.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/notrans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="LiveMasjidAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -9579,7 +9426,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/DatabaseImageResizer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageWorker.java" />
@@ -9629,6 +9475,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/RateDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/widgets/MiniController.java" />
         <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/notrans.xml" />
       </list>
     </option>
   </component>
@@ -9693,6 +9541,52 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveMasjidAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveMasjidAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveMasjidAndroid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -10152,8 +10046,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5799677" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5799677" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.4806139" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -10172,64 +10066,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="273" column="88" selection-start-line="273" selection-start-column="85" selection-end-line="273" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/AlarmProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/alarm/Alarms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/provider/Media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/RecyclingBitmapDrawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageResizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/livemasjid/livemasjidandroid/bitmap/ImageFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -10342,9 +10178,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -10360,9 +10194,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -10371,7 +10203,7 @@
         <state relative-caret-position="1140">
           <caret line="97" column="60" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10392,9 +10224,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -10427,12 +10257,11 @@
         <state relative-caret-position="144">
           <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7222#7276#0" expanded="true" />
-            <element signature="e#7487#7622#0" expanded="true" />
-            <element signature="e#10476#10504#0" expanded="true" />
-            <element signature="e#10507#10534#0" expanded="true" />
-            <element signature="e#11692#11746#0" expanded="true" />
+            <element signature="e#7222#7276#0" expanded="false" />
+            <element signature="e#7487#7622#0" expanded="false" />
+            <element signature="e#10476#10504#0" expanded="false" />
+            <element signature="e#10507#10534#0" expanded="false" />
+            <element signature="e#11692#11746#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10545,16 +10374,15 @@
         <state relative-caret-position="270">
           <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7793#7825#0" expanded="true" />
-            <element signature="e#7863#7912#0" expanded="true" />
-            <element signature="e#10958#10980#0" expanded="true" />
-            <element signature="e#13214#13245#0" expanded="true" />
-            <element signature="e#13264#13317#0" expanded="true" />
-            <element signature="e#13399#13433#0" expanded="true" />
-            <element signature="e#13452#13511#0" expanded="true" />
-            <element signature="e#13590#13622#0" expanded="true" />
-            <element signature="e#13641#13696#0" expanded="true" />
+            <element signature="e#7793#7825#0" expanded="false" />
+            <element signature="e#7863#7912#0" expanded="false" />
+            <element signature="e#10958#10980#0" expanded="false" />
+            <element signature="e#13214#13245#0" expanded="false" />
+            <element signature="e#13264#13317#0" expanded="false" />
+            <element signature="e#13399#13433#0" expanded="false" />
+            <element signature="e#13452#13511#0" expanded="false" />
+            <element signature="e#13590#13622#0" expanded="false" />
+            <element signature="e#13641#13696#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10564,21 +10392,20 @@
         <state relative-caret-position="309">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6748#6767#0" expanded="true" />
-            <element signature="e#7034#7090#0" expanded="true" />
-            <element signature="e#7116#7138#0" expanded="true" />
-            <element signature="e#7580#7603#0" expanded="true" />
-            <element signature="e#8217#8247#0" expanded="true" />
-            <element signature="e#8569#8589#0" expanded="true" />
-            <element signature="e#8786#8814#0" expanded="true" />
-            <element signature="e#8946#8995#0" expanded="true" />
-            <element signature="e#9045#9076#0" expanded="true" />
-            <element signature="e#12782#12813#0" expanded="true" />
-            <element signature="e#14067#14106#0" expanded="true" />
-            <element signature="e#16381#16409#0" expanded="true" />
-            <element signature="e#16533#16582#0" expanded="true" />
-            <element signature="e#16633#16664#0" expanded="true" />
+            <element signature="e#6748#6767#0" expanded="false" />
+            <element signature="e#7034#7090#0" expanded="false" />
+            <element signature="e#7116#7138#0" expanded="false" />
+            <element signature="e#7580#7603#0" expanded="false" />
+            <element signature="e#8217#8247#0" expanded="false" />
+            <element signature="e#8569#8589#0" expanded="false" />
+            <element signature="e#8786#8814#0" expanded="false" />
+            <element signature="e#8946#8995#0" expanded="false" />
+            <element signature="e#9045#9076#0" expanded="false" />
+            <element signature="e#12782#12813#0" expanded="false" />
+            <element signature="e#14067#14106#0" expanded="false" />
+            <element signature="e#16381#16409#0" expanded="false" />
+            <element signature="e#16533#16582#0" expanded="false" />
+            <element signature="e#16633#16664#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10598,9 +10425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -10609,14 +10434,14 @@
         <state relative-caret-position="60">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
-            <element signature="e#11099#11131#0" expanded="true" />
-            <element signature="e#11161#11210#0" expanded="true" />
-            <element signature="e#12846#12877#0" expanded="true" />
-            <element signature="e#12896#12949#0" expanded="true" />
-            <element signature="e#13031#13065#0" expanded="true" />
-            <element signature="e#13084#13143#0" expanded="true" />
-            <element signature="e#13222#13254#0" expanded="true" />
-            <element signature="e#13273#13328#0" expanded="true" />
+            <element signature="e#11099#11131#0" expanded="false" />
+            <element signature="e#11161#11210#0" expanded="false" />
+            <element signature="e#12846#12877#0" expanded="false" />
+            <element signature="e#12896#12949#0" expanded="false" />
+            <element signature="e#13031#13065#0" expanded="false" />
+            <element signature="e#13084#13143#0" expanded="false" />
+            <element signature="e#13222#13254#0" expanded="false" />
+            <element signature="e#13273#13328#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10644,9 +10469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -10675,11 +10498,11 @@
         <state relative-caret-position="135">
           <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
-            <element signature="e#24458#24527#0" expanded="true" />
-            <element signature="e#63531#63570#0" expanded="true" />
-            <element signature="e#63715#63764#0" expanded="true" />
-            <element signature="e#63809#63869#0" expanded="true" />
-            <element signature="e#92527#92551#0" expanded="true" />
+            <element signature="e#24458#24527#0" expanded="false" />
+            <element signature="e#63531#63570#0" expanded="false" />
+            <element signature="e#63715#63764#0" expanded="false" />
+            <element signature="e#63809#63869#0" expanded="false" />
+            <element signature="e#92527#92551#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10689,7 +10512,7 @@
         <state relative-caret-position="45">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10699,11 +10522,11 @@
         <state relative-caret-position="60">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
-            <element signature="e#1514#1539#0" expanded="true" />
-            <element signature="e#1605#1622#0" expanded="true" />
-            <element signature="e#1624#2406#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2439#2456#0" expanded="true" />
+            <element signature="e#1514#1539#0" expanded="false" />
+            <element signature="e#1605#1622#0" expanded="false" />
+            <element signature="e#1624#2406#0" expanded="false" />
+            <element signature="e#2405#2406#0" expanded="false" />
+            <element signature="e#2439#2456#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -10732,6 +10555,59 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dslv_attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/notrans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1569">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

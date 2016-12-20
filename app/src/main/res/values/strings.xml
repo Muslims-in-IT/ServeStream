@@ -127,7 +127,7 @@
 	<string name="pref_sendbluetoothmetadata_title">"Send metadata"</string>
 	<string name="pref_sendbluetoothmetadata_summary">"Send metadata to paired bluetooth devices (Note: will automatically send metadata to scrobbling apps)"</string>
 	<string name="pref_set_theme_title">Select theme</string>
-	<string name="pref_set_theme_summary">Change the appearance of ServeStream</string>
+	<string name="pref_set_theme_summary">Change the appearance of LiveMasjid</string>
 	<string name="pref_wakelock_title">Screen wake lock</string>
 	<string name="pref_wakelock_summary">Keep screen from dimming or going to sleep</string>
 	<string name="pref_wifilock_title">"Keep Wi-Fi active"</string>
