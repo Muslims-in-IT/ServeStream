@@ -19,7 +19,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="net.sourceforge.servestream"
+	package="com.livemasjid.livemasjidandroid"
 	android:versionName="0.7.0"
 	android:versionCode="105"
 	android:installLocation="auto" >
@@ -37,7 +37,7 @@
 	<uses-permission android:name="com.android.vending.BILLING" />
 	
 	<application
-	    android:name="net.sourceforge.servestream.ServeStreamApp"
+	    android:name="com.livemasjid.livemasjidandroid.MasjidStreamApp"
 		android:icon="@drawable/ic_launcher"
 		android:label="@string/app_name"
 		android:allowBackup="true"
@@ -47,16 +47,16 @@
 
 		<meta-data
 		    android:name="com.google.android.backup.api_key"
-    		android:value="AEdPqrEAAAAIWcqt9c_ET5W0EpBB9ZCQGbBhfrOetXL6t6Cdwg" />
+    		android:value="AEdPqrEAAAAIkBqN73uTwbPHvt0UZj6lCSx18JF0OAI1miOSUQ" />
 
         <provider
             android:name=".provider.MediaProvider"
-            android:authorities="net.sourceforge.servestream.provider.Media"
+            android:authorities="com.livemasjid.livemasjidandroid.provider.Media"
             android:exported="false" />
         
         <provider
             android:name=".alarm.AlarmProvider"
-            android:authorities="net.sourceforge.servestream"
+            android:authorities="com.livemasjid.livemasjidandroid"
             android:exported="false" />
 
 		<activity
@@ -72,7 +72,7 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.BROWSABLE" />
 				<category android:name="android.intent.category.DEFAULT" />
-				<data android:mimeType="net.sourceforge.servestream/*" />
+				<data android:mimeType="com.livemasjid.livemasjidandroid/*" />
 			</intent-filter>
 			<intent-filter>
   				<action android:name="android.intent.action.SEND" />
@@ -214,12 +214,12 @@
             android:launchMode="singleTop"
             android:exported="false" >
             <intent-filter>
-                <action android:name="net.sourceforge.servestream.PLAYBACK_VIEWER" />
+                <action android:name="com.livemasjid.livemasjidandroid.PLAYBACK_VIEWER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         	<meta-data
             	android:name="android.support.PARENT_ACTIVITY"
-            	android:value="net.sourceforge.servestream.activity.MainActivity" />
+            	android:value="com.livemasjid.livemasjidandroid.activity.MainActivity" />
         </activity>
         
         <receiver
@@ -242,10 +242,10 @@
             android:name=".receiver.SimpleLastfmScrobblerReceiver"
             android:exported="false" >
             <intent-filter>
-                <action android:name="net.sourceforge.servestream.playbackstarted" />
-                <action android:name="net.sourceforge.servestream.playstatechanged" />
-                <action android:name="net.sourceforge.servestream.playbackcomplete" />
-                <action android:name="net.sourceforge.servestream.metachanged" />
+                <action android:name="com.livemasjid.livemasjidandroid.playbackstarted" />
+                <action android:name="com.livemasjid.livemasjidandroid.playstatechanged" />
+                <action android:name="com.livemasjid.livemasjidandroid.playbackcomplete" />
+                <action android:name="com.livemasjid.livemasjidandroid.metachanged" />
             </intent-filter>
         </receiver>
         
@@ -253,10 +253,10 @@
             android:name=".receiver.ScrobbleDroidReceiver"
             android:exported="false" >
             <intent-filter>
-                <action android:name="net.sourceforge.servestream.playbackstarted" />
-                <action android:name="net.sourceforge.servestream.playstatechanged" />
-                <action android:name="net.sourceforge.servestream.playbackcomplete" />
-                <action android:name="net.sourceforge.servestream.metachanged" />
+                <action android:name="com.livemasjid.livemasjidandroid.playbackstarted" />
+                <action android:name="com.livemasjid.livemasjidandroid.playstatechanged" />
+                <action android:name="com.livemasjid.livemasjidandroid.playbackcomplete" />
+                <action android:name="com.livemasjid.livemasjidandroid.metachanged" />
             </intent-filter>
         </receiver>
         
@@ -305,9 +305,9 @@
             android:name=".alarm.AlarmReceiver"
             android:exported="false" >
             <intent-filter>
-                <action android:name="net.sourceforge.servestream.ALARM_ALERT" />
-                <action android:name="net.sourceforge.servestream.ALARM_KILLED" />
-                <action android:name="net.sourceforge.servestream.CANCEL_SNOOZE" />
+                <action android:name="com.livemasjid.livemasjidandroid.ALARM_ALERT" />
+                <action android:name="com.livemasjid.livemasjidandroid.ALARM_KILLED" />
+                <action android:name="com.livemasjid.livemasjidandroid.CANCEL_SNOOZE" />
             </intent-filter>
         </receiver>
 
@@ -322,7 +322,7 @@
 			android:description="@string/alarm_klaxon_service_desc"
 			android:exported="false" >                
             <intent-filter>
-                <action android:name="net.sourceforge.servestream.ALARM_ALERT" />
+                <action android:name="com.livemasjid.livemasjidandroid.ALARM_ALERT" />
             </intent-filter>
         </service>
 

@@ -30,7 +30,7 @@
         android:background="@null"
         android:padding="10dip" >
 
-        <net.sourceforge.servestream.utils.CoverView
+        <com.livemasjid.livemasjidandroid.utils.CoverView
             android:id="@+id/album_art"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -37,7 +37,7 @@
 			android:background="@null"
 			android:scaleType="center" />
         
-    	<net.sourceforge.servestream.bitmap.RecyclingImageView
+    	<com.livemasjid.livemasjidandroid.bitmap.RecyclingImageView
         	android:id="@+id/icon"
         	android:layout_width="64dip"
         	android:layout_height="64dip"

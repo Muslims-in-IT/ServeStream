@@ -1,4 +1,4 @@
-<net.sourceforge.servestream.widgets.MiniController
+<com.livemasjid.livemasjidandroid.widgets.MiniController
     xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/miniController1"
     android:layout_width="fill_parent"

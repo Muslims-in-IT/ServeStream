@@ -25,11 +25,11 @@
     <Preference android:key="time"
         android:persistent="false"
         android:title="@string/time"/>
-    <net.sourceforge.servestream.alarm.RepeatPreference
+    <com.livemasjid.livemasjidandroid.alarm.RepeatPreference
         android:persistent="false"
         android:key="setRepeat"
         android:title="@string/alarm_repeat" />
-    <net.sourceforge.servestream.alarm.AlarmPreference
+    <com.livemasjid.livemasjidandroid.alarm.AlarmPreference
         android:key="alarm"
         android:title="@string/alert"
         android:ringtoneType="alarm"

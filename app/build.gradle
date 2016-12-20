@@ -7,7 +7,7 @@ android {
     def mkfile = "NDK_APPLICATION_MK=Application.mk"
 
     defaultConfig {
-        applicationId "net.sourceforge.servestream"
+        applicationId "com.livemasjid.livemasjidandroid"
         minSdkVersion 12
         targetSdkVersion 23
         versionName "0.7.3"

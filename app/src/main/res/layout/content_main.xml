@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/mini_controller"
-        android:name="net.sourceforge.servestream.fragment.MiniControllerFragment"
+        android:name="com.livemasjid.livemasjidandroid.fragment.MiniControllerFragment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 

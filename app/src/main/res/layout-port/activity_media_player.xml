@@ -106,7 +106,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal" >
 
-                <net.sourceforge.servestream.button.RepeatingImageButton
+                <com.livemasjid.livemasjidandroid.button.RepeatingImageButton
                     android:id="@+id/previous_button"
                     android:background="@null"
                     android:paddingBottom="20dip"
@@ -125,7 +125,7 @@
                     android:src="?attr/ic_av_play_over_video_large"
                     android:scaleType="centerInside" />
 
-                <net.sourceforge.servestream.button.RepeatingImageButton
+                <com.livemasjid.livemasjidandroid.button.RepeatingImageButton
                     android:id="@+id/next_button"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"

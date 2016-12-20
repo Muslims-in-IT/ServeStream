@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:paddingTop="0dp" >
 
-    <net.sourceforge.servestream.bitmap.RecyclingImageView
+    <com.livemasjid.livemasjidandroid.bitmap.RecyclingImageView
         android:id="@+id/iconView"
         android:layout_width="@dimen/mini_controller_icon_width"
         android:layout_height="@dimen/mini_controller_icon_height"

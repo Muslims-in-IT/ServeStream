@@ -52,7 +52,8 @@
         android:scaleType="fitXY"
         android:gravity="fill_vertical" />
 
-    <net.sourceforge.servestream.alarm.DigitalClock android:id="@+id/digitalClock"
+    <com.livemasjid.livemasjidandroid.alarm.DigitalClock
+        android:id="@+id/digitalClock"
         android:layout_width="0dip"
         android:layout_height="fill_parent"
         android:gravity="center_vertical"
@@ -105,6 +106,6 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="?android:attr/textColorSecondary" />
 
-    </net.sourceforge.servestream.alarm.DigitalClock>
+    </com.livemasjid.livemasjidandroid.alarm.DigitalClock>
 
 </LinearLayout>

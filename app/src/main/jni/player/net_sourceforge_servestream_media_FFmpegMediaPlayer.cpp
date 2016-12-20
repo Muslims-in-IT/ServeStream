@@ -90,7 +90,7 @@ JNIMediaPlayerListener::JNIMediaPlayerListener(JNIEnv* env, jobject thiz, jobjec
     // that posts events to the application thread.
     jclass clazz = env->GetObjectClass(thiz);
     if (clazz == NULL) {
-    	__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "Can't find net/sourceforge/servestream/media/FFmpegMediaPlayer");
+    	__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "Can't find net/sourceforge/com.livemasjid.livemasjidandroid/media/FFmpegMediaPlayer");
         jniThrowException(env, "java/lang/Exception", NULL);
         return;
     }
@@ -834,7 +834,7 @@ net_sourceforge_servestream_media_FFmpegMediaPlayer_native_init(JNIEnv *env)
     __android_log_print(ANDROID_LOG_VERBOSE, LOG_TAG, "native_init");
     jclass clazz;
 
-    clazz = env->FindClass("net/sourceforge/servestream/media/FFmpegMediaPlayer");
+    clazz = env->FindClass("net/sourceforge/com.livemasjid.livemasjidandroid/media/FFmpegMediaPlayer");
     if (clazz == NULL) {
         return;
     }
@@ -1019,13 +1019,13 @@ static JNINativeMethod gMethods[] = {
     {"attachAuxEffect",     "(I)V",                             (void *)net_sourceforge_servestream_media_FFmpegMediaPlayer_attachAuxEffect},
 };
 
-static const char* const kClassPathName = "net/sourceforge/servestream/media/FFmpegMediaPlayer";
+static const char* const kClassPathName = "net/sourceforge/com.livemasjid.livemasjidandroid/media/FFmpegMediaPlayer";
 
 // This function only registers the native methods
 static int register_net_sourceforge_servestream_media_FFmpegMediaPlayer(JNIEnv *env)
 {
     int numMethods = (sizeof(gMethods) / sizeof( (gMethods)[0]));
-    jclass clazz = env->FindClass("net/sourceforge/servestream/media/FFmpegMediaPlayer");
+    jclass clazz = env->FindClass("net/sourceforge/com.livemasjid.livemasjidandroid/media/FFmpegMediaPlayer");
     jint ret = env->RegisterNatives(clazz, gMethods, numMethods);
     env->DeleteLocalRef(clazz);
 }
