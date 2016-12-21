@@ -20,9 +20,9 @@ package com.livemasjid.livemasjidandroid.utils;
 public class Constants {
 
 	public static final String SERVESTREAM_PLAYSTORE_URI = "market://details?id=com.livemasjid.livemasjidandroid";
-	public static final String SERVESTREAM_PROJECT_PAGE = "https://github.com/wseemann/ServeStream";
+	public static final String SERVESTREAM_PROJECT_PAGE = "https://github.com/Muslims-in-IT/LiveMasjidAndroid";
 	
-	public static final String SERVESTREAM_DONATE_PAGE = "https://sourceforge.net/p/com.livemasjid.livemasjidandroid/donate";
+	public static final String SERVESTREAM_DONATE_PAGE = "http://www.livemasjid.com";
 	
 	public static final String ZXING_PLAYSTORE_URI = "market://details?id=com.google.zxing.client.android";
 	public static final String ZXING_PROJECT_PAGE = "http://code.google.com/p/zxing/downloads/list";

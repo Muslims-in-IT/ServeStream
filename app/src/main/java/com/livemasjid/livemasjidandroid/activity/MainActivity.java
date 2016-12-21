@@ -427,7 +427,7 @@ public class MainActivity extends AppCompatActivity implements
     	mTag = tag;
 
 		NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-		navigationView.setCheckedItem(R.id.nav_browse);
+		//navigationView.setCheckedItem(R.id.nav_browse);
 	}
 
 	private void showDialog(String tag) {
@@ -472,8 +472,8 @@ public class MainActivity extends AppCompatActivity implements
 
 		if (id == R.id.nav_urls) {
 			selectItem(0);
-		} else if (id == R.id.nav_browse) {
-			selectItem(1);
+		//} else if (id == R.id.nav_browse) {
+			//selectItem(1);
 		} else if (id == R.id.nav_alarm_clock) {
 			selectItem(2);
 		}

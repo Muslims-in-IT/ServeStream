@@ -21,7 +21,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	
     <!-- Activity titles -->
-    <string name="url_label">Urls</string>
+    <string name="url_label">Masaajid</string>
     <string name="browse_label">Browse</string>
     <string name="settings_label">Settings</string>
     <string name="add_new_url_label">Add a new URL</string>

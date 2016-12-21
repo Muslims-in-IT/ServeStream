@@ -72,7 +72,7 @@ public class NewMainActivity extends AppCompatActivity
 
         if (id == R.id.nav_urls) {
 
-        } else if (id == R.id.nav_browse) {
+        //} else if (id == R.id.nav_browse) {
 
         } else if (id == R.id.nav_alarm_clock) {
 

@@ -43,11 +43,11 @@ import android.widget.Toast;
 public class SettingsFragment extends com.livemasjid.livemasjidandroid.preference.PreferenceFragment {
 	private static final String TAG = SettingsFragment.class.getName();
 
-	private static final String PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr6Z/tJghrCn7OSo2lWndIo+tibBhZN/mQ/Spu4IsorzHwMVW3BKPzIiyqkZa78sEs6cH68HvfoAW7QpDgJ021ZKQZaTV3m714TkLZ9RZr+rtMdPBvRkcyVWtDj3L941I4cjczs08AhAcxoIRDtA3hHZ1sKfjEgHRY19Z8oas7+f2CqCoCdRBrBCQAN55YrFw06SsnGCjHuGQgx3+pzcxuNO91s7HvJIYtCDMz+dquvQ5cU51Ia5uG3HB8ezFoag1qMq65wGed3uXANwHZUconDG6ZMYhTF4hgsS2/6es0rDZSqsgqOQ8pRIBKSg0aRmvneW6+liSycMAoL+/hl8yRwIDAQAB";
+	/*private static final String PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr6Z/tJghrCn7OSo2lWndIo+tibBhZN/mQ/Spu4IsorzHwMVW3BKPzIiyqkZa78sEs6cH68HvfoAW7QpDgJ021ZKQZaTV3m714TkLZ9RZr+rtMdPBvRkcyVWtDj3L941I4cjczs08AhAcxoIRDtA3hHZ1sKfjEgHRY19Z8oas7+f2CqCoCdRBrBCQAN55YrFw06SsnGCjHuGQgx3+pzcxuNO91s7HvJIYtCDMz+dquvQ5cU51Ia5uG3HB8ezFoag1qMq65wGed3uXANwHZUconDG6ZMYhTF4hgsS2/6es0rDZSqsgqOQ8pRIBKSg0aRmvneW6+liSycMAoL+/hl8yRwIDAQAB";
 	private static final String DONATION_SKU_SMALL = "donation_small";
 	private static final String DONATION_SKU_MEDIUM = "donation_medium";
 	private static final String DONATION_SKU_LARGE = "donation_large";
-	private static final String DONATION_SKU_XLARGE = "donation_xlarge";
+	private static final String DONATION_SKU_XLARGE = "donation_xlarge";*/
 	
 	private String mPayload;
 	
@@ -90,7 +90,7 @@ public class SettingsFragment extends com.livemasjid.livemasjidandroid.preferenc
 
 					});
 
-			findPreference(PREF_DONATE).setOnPreferenceClickListener(
+			/*findPreference(PREF_DONATE).setOnPreferenceClickListener(
 					new OnPreferenceClickListener() {
 
 						@Override
@@ -115,7 +115,7 @@ public class SettingsFragment extends com.livemasjid.livemasjidandroid.preferenc
 
 					});
 			
-			/*findPreference(PreferenceConstants.THEME).setOnPreferenceChangeListener(
+			findPreference(PreferenceConstants.THEME).setOnPreferenceChangeListener(
                     new OnPreferenceChangeListener() {
 
                         @Override
@@ -153,7 +153,7 @@ public class SettingsFragment extends com.livemasjid.livemasjidandroid.preferenc
 		return true;
 	}
 
-	private void showDonationAmountsDialog() {
+	/*private void showDonationAmountsDialog() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 		builder.setTitle(R.string.donation_amount)
 			.setItems(R.array.donation_amounts,
@@ -195,7 +195,7 @@ public class SettingsFragment extends com.livemasjid.livemasjidandroid.preferenc
     			mPurchaseFinishedListener, mPayload);
     }
 	
-    /** Verifies the developer payload of a purchase. */
+     //Verifies the developer payload of a purchase.
     boolean verifyDeveloperPayload(Purchase p) {
         String payload = p.getDeveloperPayload();
 
@@ -243,7 +243,7 @@ public class SettingsFragment extends com.livemasjid.livemasjidandroid.preferenc
             // if we were disposed of in the meantime, quit.
             if (mHelper == null) return;
         }
-    };
+    };*/
     
     private void complain(String message) {
         Log.e(TAG, "**** Error: " + message);
