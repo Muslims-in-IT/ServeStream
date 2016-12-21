@@ -93,6 +93,7 @@ public class AddUrlFragment extends Fragment implements LoadingDialogListener {
 		}
 		
         setRetainInstance(true);
+
     }
 	
 	@Override
@@ -205,7 +206,7 @@ public class AddUrlFragment extends Fragment implements LoadingDialogListener {
 		startActivity(intent);
 		getActivity().finish();
 	}
-    
+
     private void showDialog(String tag) {
 		// DialogFragment.show() will take care of adding the fragment
 		// in a transaction.  We also want to remove any currently showing

@@ -25,6 +25,7 @@ import com.livemasjid.livemasjidandroid.fragment.UrlListFragment.BrowseIntentLis
 import com.livemasjid.livemasjidandroid.utils.DownloadScannerDialog;
 import com.livemasjid.livemasjidandroid.utils.MusicUtils;
 import com.livemasjid.livemasjidandroid.utils.MusicUtils.ServiceToken;
+import com.livemasjid.livemasjidandroid.utils.MountsLoader;
 
 import android.Manifest;
 import android.app.Activity;
@@ -58,19 +59,19 @@ public class MainActivity extends AppCompatActivity implements
 			ServiceConnection,
 			BrowseIntentListener, ItemAccess,
 		NavigationView.OnNavigationItemSelectedListener {
-	
+
 	private static final String STATE_SELECTED_NAVIGATION_ITEM = "selected_navigation_item";
-	
+
 	private final static String DOWNLOAD_SCANNER_DIALOG = "download_scanner_dialog";
 
 	private final static int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 0;
 
 	private String mTag;
-	
+
     private CharSequence mTitle;
 
 	private ServiceToken mToken;
-    
+
     private int mCurrentSelectedPosition = 0;
 
 	@Override
@@ -101,14 +102,17 @@ public class MainActivity extends AppCompatActivity implements
 		mToken = MusicUtils.bindToService(this, this);
 
 		requestPermission(this);
+
+        MountsLoader loader = new MountsLoader(this);
+        loader.execute();
 	}
 
     @Override
     public void onNewIntent(Intent intent) {
     	super.onNewIntent(intent);
-		
+
         setIntent(intent);
-    	
+
     	if (intent.hasExtra("restart_app")) {
     		Intent i = getIntent();
     		i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -118,14 +122,14 @@ public class MainActivity extends AppCompatActivity implements
     		openUri(getUri());
     	}
     }
-    
+
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
 
         MusicUtils.unbindFromService(mToken);
 	}
-	
+
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
@@ -141,13 +145,13 @@ public class MainActivity extends AppCompatActivity implements
 		// Serialize the current dropdown position.
 		outState.putString(STATE_SELECTED_NAVIGATION_ITEM, mTag);
 	}
-	
+
     /* Called whenever we call invalidateOptionsMenu() */
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         return super.onPrepareOptionsMenu(menu);
     }
-	
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -181,7 +185,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     @Override
-    public void startActivity(Intent intent) {      
+    public void startActivity(Intent intent) {
         // check if search intent
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
         	Fragment fragment = getSupportFragmentManager().findFragmentByTag(mTag);
@@ -192,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements
 
         super.startActivity(intent);
     }
-    
+
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_BACK) {
@@ -202,10 +206,10 @@ public class MainActivity extends AppCompatActivity implements
 				return true;
 			}
 		}
-		
+
 		return super.onKeyDown(keyCode, event);
 	}
-    
+
     @Override
 	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
 	    if (requestCode == 0) {
@@ -218,20 +222,20 @@ public class MainActivity extends AppCompatActivity implements
 	        }
 	    }
 	}
-	
+
     private void selectItem(int position) {
     	mCurrentSelectedPosition = position;
-    	
+
     	FragmentManager fragmentManager = getSupportFragmentManager();
     	Fragment fragment = getSupportFragmentManager().findFragmentByTag(mTag);
-    	
+
     	if (fragment != null) {
     		fragmentManager.beginTransaction().detach(fragment).commit();
     	}
-    	
+
     	String tag = String.valueOf(position);
     	fragment = getSupportFragmentManager().findFragmentByTag(tag);
-    	
+
     	if (fragment == null) {
             if (position == 0) {
             	fragment = new UrlListFragment();
@@ -242,12 +246,12 @@ public class MainActivity extends AppCompatActivity implements
             } else if (position == 2) {
             	fragment = new AlarmClockFragment();
             }
-    		
+
     		fragmentManager.beginTransaction().add(R.id.content_frame, fragment, tag).commit();
     	} else {
     		fragmentManager.beginTransaction().attach(fragment).commit();
     	}
-    	
+
     	mTag = tag;
     }
 
@@ -325,13 +329,13 @@ public class MainActivity extends AppCompatActivity implements
     private String getUri() {
 		String intentUri = null;
 		String contentType = null;
-		
+
 		Intent intent = getIntent();
-		
+
 		if (intent == null) {
 			return null;
 		}
-		
+
         // check to see if we were called from a home screen shortcut
 		if ((contentType = intent.getType()) != null) {
 			if (contentType.contains("com.livemasjid.livemasjidandroid/")) {
@@ -340,22 +344,22 @@ public class MainActivity extends AppCompatActivity implements
 				return intentUri;
 			}
 		}
-		
+
 		// check to see if we were called by clicking on a URL
 		if (intent.getData() != null) {
 			intentUri = intent.getData().toString();
 		}
-		
+
 		// check to see if the application was opened from a share intent
 		if (intent.getExtras() != null && intent.getExtras().getCharSequence(Intent.EXTRA_TEXT) != null) {
 			intentUri = intent.getExtras().getCharSequence(Intent.EXTRA_TEXT).toString();
 		}
 
 		setIntent(null);
-		
+
 		return intentUri;
     }
-    
+
 	@Override
 	public void onServiceConnected(ComponentName name, IBinder service) {
 		//MusicUtils.updateNowPlaying(this);
@@ -368,20 +372,20 @@ public class MainActivity extends AppCompatActivity implements
 
 	private void openUri(String uri) {
 		mCurrentSelectedPosition = 0;
-		
+
 		Bundle args = new Bundle();
 		args.putString(UrlListFragment.ARG_TARGET_URI, uri);
-    	
+
     	FragmentManager fragmentManager = getSupportFragmentManager();
     	Fragment fragment = getSupportFragmentManager().findFragmentByTag(mTag);
-    	
+
     	if (fragment != null) {
     		fragmentManager.beginTransaction().detach(fragment).commit();
     	}
-    	
+
     	String tag = String.valueOf(0);
     	fragment = getSupportFragmentManager().findFragmentByTag(tag);
-    	
+
     	if (fragment == null) {
            	fragment = new UrlListFragment();
            	fragment.setArguments(args);
@@ -390,27 +394,27 @@ public class MainActivity extends AppCompatActivity implements
            	fragment.getArguments().putString(UrlListFragment.ARG_TARGET_URI, uri);
     		fragmentManager.beginTransaction().attach(fragment).commit();
     	}
-    	
+
     	mTag = tag;
 	}
-	
+
 	@Override
 	public void browseToUri(Uri uri) {
 		mCurrentSelectedPosition = 1;
-		
+
 		Bundle args = new Bundle();
 		args.putString(UrlListFragment.ARG_TARGET_URI, uri.toString());
-    	
+
     	FragmentManager fragmentManager = getSupportFragmentManager();
     	Fragment fragment = getSupportFragmentManager().findFragmentByTag(mTag);
-    	
+
     	if (fragment != null) {
     		fragmentManager.beginTransaction().detach(fragment).commit();
     	}
-    	
+
     	String tag = String.valueOf(1);
     	fragment = getSupportFragmentManager().findFragmentByTag(tag);
-    	
+
     	if (fragment == null) {
            	fragment = new BrowseFragment();
            	fragment.setArguments(args);
@@ -419,13 +423,13 @@ public class MainActivity extends AppCompatActivity implements
            	fragment.getArguments().putString(UrlListFragment.ARG_TARGET_URI, uri.toString());
     		fragmentManager.beginTransaction().attach(fragment).commit();
     	}
-    	
+
     	mTag = tag;
 
 		NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
 		navigationView.setCheckedItem(R.id.nav_browse);
 	}
-	
+
 	private void showDialog(String tag) {
 		// DialogFragment.show() will take care of adding the fragment
 		// in a transaction.  We also want to remove any currently showing

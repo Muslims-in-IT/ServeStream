@@ -10,8 +10,8 @@ android {
         applicationId "com.livemasjid.livemasjidandroid"
         minSdkVersion 12
         targetSdkVersion 23
-        versionName "0.7.3"
-        versionCode 114
+        versionName "0.7.7"
+        versionCode 117
     }
 
     lintOptions {

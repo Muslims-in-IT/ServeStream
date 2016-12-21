@@ -147,10 +147,10 @@
 			android:title="@string/about_pref" >
 		</Preference>
 	
-    	<Preference
+    	<!--<Preference
         	android:key="donate"
 			android:title="@string/pref_donate" >
-    	</Preference>
+    	</Preference>-->
 
 	</PreferenceCategory>
     		
